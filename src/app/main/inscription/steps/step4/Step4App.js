@@ -548,8 +548,8 @@ function Step4App(props) {
                                                 validationErrors={{
                                                   minLength: 'La longueur minimale de caractère est 15',
                                                   maxLength: 'La longueur maximale de caractère est 15',
-                                                  isNumeric: 'Cette valeur doit être numérique.',
-                                                  matchRegexp: 'Le code ICE doit contenir uniquement des chiffres.',
+                                                  isNumeric: 'Cette valeur doit être numérique .',
+                                                  matchRegexp: 'Le code ICE doit contenir uniquement des chiffres numérique.',
                                                 }}
                                                 variant="outlined"
                                                 required
